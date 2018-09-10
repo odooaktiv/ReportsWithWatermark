@@ -12,7 +12,7 @@
     """,
     'author': "Aktiv Software",
     'website': "http://www.aktivsoftware.com",
-    # 'license': "OPL-1",
+    'license': 'AGPL-3',
     'category': 'report',
     'version': '1.0',
     'depends': ['web'],
