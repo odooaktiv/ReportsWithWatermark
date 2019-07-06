@@ -1,4 +1,4 @@
-Open ERP System :- Master
+Open ERP System :- odoo12 Community master
 
 Installation 
 ============
@@ -10,7 +10,7 @@ This Module Install than wkhtmltopdf library are required if not library than mo
 
 Version
 ========
-	Odoo v11
+	Odoo v12
 
 Module Configuration Guideline
 =============================
