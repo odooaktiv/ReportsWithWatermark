@@ -14,7 +14,7 @@
     'website': "http://www.aktivsoftware.com",
     'license': 'AGPL-3',
     'category': 'report',
-    'version': '12.0.1.0.0',
+    'version': '13.0.1.0.0',
     'depends': ['web'],
     'data': [
         'views/res_company_views.xml',
