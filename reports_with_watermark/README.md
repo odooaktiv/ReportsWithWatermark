@@ -19,4 +19,6 @@ Module Configuration Guideline
 	   Settings -> Company -> Watermark Options
  
 
-
+Version 13.0.1.0.1
+=============
+Fix bug set opacity in company logo in version 13.0.1.0.1
