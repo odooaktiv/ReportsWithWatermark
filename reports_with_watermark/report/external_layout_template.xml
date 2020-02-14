@@ -11,7 +11,7 @@
             
             <t t-if = "company.watermark_option == 'logo'">
                 <div style="opacity: 0.50;" t-if = "company.watermark_option == 'logo'">
-                    <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % to_text(company.logo)" style="top:400px;position:absolute;width:100%; opacity: 0.50;"/>
+                    <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % to_text(company.logo)" style="top:400px;position:absolute;width:100%; opacity: 0.50;height:600px;"/>
                 </div>
             </t>
 
