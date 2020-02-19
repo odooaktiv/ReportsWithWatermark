@@ -15,7 +15,7 @@
     'license': 'AGPL-3',
     'category': 'report',
     'version': '13.0.1.0.1',
-    'depends': ['web'],
+    'depends': ['web', 'sale_management', 'purchase'],
     'data': [
         'views/res_company_views.xml',
         'report/external_layout_template.xml',
