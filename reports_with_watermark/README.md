@@ -22,3 +22,7 @@ Module Configuration Guideline
 Version 13.0.1.0.1
 =============
 Fix bug set opacity in company logo in version 13.0.1.0.1
+
+Version 13.0.1.0.2
+=============
+Fix bug in class path 13.0.1.0.2

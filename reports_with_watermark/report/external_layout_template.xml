@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="report_sale_order_inherit_res_company" inherit_id="web.external_layout_standard">
-        <xpath expr="//div[hasclass('header')]" position="inside"> 
+        <xpath expr="//div[@t-attf-class='header o_company_#{company.id}_layout']" position="inside">
             <div style="position: absolute;opacity: 0.25;z-index: 1000;width: 150%;">
                 <t t-if = "company.watermark_option == 'backgroundimage'">
                     <img t-if="company.upload_image" t-att-src="'data:image/png;base64,%s' % to_text(company.upload_image)" style="top:306px;position:absolute;width:65%;height:750px;opacity:0.85;z-index:-1000;"/>
