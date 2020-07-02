@@ -13,7 +13,7 @@
     'author': "Aktiv Software",
     'website': "http://www.aktivsoftware.com",
     'license': 'AGPL-3',
-    'category': 'report',
+    'category': 'Extra Tools',
     'version': '11.0.1.0.0',
     'depends': ['web'],
     'data': [
