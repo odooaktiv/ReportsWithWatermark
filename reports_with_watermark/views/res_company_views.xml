@@ -13,7 +13,7 @@
                 <field name="rotate_angle" attrs="{'invisible': ['|','|','|',('rotate_image','!=',True),('watermark_option','=', 'logo'),('watermark_option','=','backgroundimage'),('watermark_option','!=', 'name')],'required': [('rotate_image','=',True)]}"/>
                 <field name="font_size" attrs="{'invisible':[('watermark_option','!=', 'name')]}"/>
                 
-                <field name="font_color" attrs="{'invisible':[('watermark_option','!=', 'name')]}" placeholder="rgb" />
+                <field name="font_color" widget="color" attrs="{'invisible':[('watermark_option','!=', 'name')]}" placeholder="rgb" />
             </xpath>
         </field>
     </record>
